@@ -1,0 +1,44 @@
+* {
+  font-family: "Baskerville", serif;
+  font-size: 20px;
+}
+
+:root {
+  color-scheme: light only;
+}
+
+body {
+  background-color: #f8f0e8;
+  background-image: url("images/Invite.png");
+  background-size: 100%;
+  background-position: center;
+}
+
+#home {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+#dom {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+#rsvp-pl {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.title {
+  font-family: "Italianno", serif;
+}
+
+.hero-body {
+  color: black;
+}
+
+.bgr-seethrough {
+  background-color: rgba(255, 255, 255, 0.85);
+  padding: 30px;
+  border-radius: 15px;
+}

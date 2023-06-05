@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="color-scheme" content="light only" />
+    <link rel="stylesheet" href="./styles.css" />
+    <base href="/" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baskervville:ital@0;1&family=Montserrat:wght@100;200;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Italianno&family=Lora&family=Space+Mono&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="images/favicon.png" />
+    <title>A + K</title>
+    <script src="burgertoggler.js"></script>
+  </head>
+
+  <body>
+    <!-- NAVBAR -->
+    <nav
+      class="navbar is-fixed-top is-white"
+      role="navigation"
+      aria-label="main navigation"
+    >
+      <div class="navbar-brand">
+        <a href="#home" class="navbar-item">
+          <img src="/images/Logo.png" alt="" />
+        </a>
+
+        <a
+          role="button"
+          class="navbar-burger"
+          aria-label="menu"
+          aria-expanded="false"
+          data-target="navbarBasicExample"
+        >
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
+
+      <div id="navbarBasicExample" class="navbar-menu">
+        <div class="navbar-end">
+          <a class="navbar-item" href="#home"> Home </a>
+
+          <a class="navbar-item" href="#accomodation"> Info </a>
+
+          <a class="navbar-item" href="#rsvp"> R.S.V.P.</a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- MAIN BANNER -->
+    <section class="section pl-1 pr-1">
+      <banner class="hero is-fullheight has-bg-img" id="home">
+        <div class="hero-body">
+          <div class="container is-centered bgr-seethrough">
+            <div class="content">
+              <p
+                class="title is-size-1 has-text-centered has-text-weight-normal"
+              >
+                We are getting married!
+              </p>
+            </div>
+
+            <div class="column has-text-centered">
+              <figure class="image is-96x96 is-inline-block">
+                <img src="images/palm2.png" />
+              </figure>
+              <h2 class="content has-text-centered is-size-3">Asia & Kacper</h2>
+            </div>
+            <br />
+            <br />
+
+            <div class="columns is-centered">
+              <div class="column has-text-centered">
+                <figure class="image is-64x64 is-inline-block">
+                  <img src="images/plant2.png" />
+                </figure>
+                <h2 class="content has-text-centered">
+                  26th of August 2023 <br />
+                  18:00:00
+                </h2>
+              </div>
+
+              <div class="column has-text-centered">
+                <figure class="image is-64x64 is-inline-block">
+                  <img src="images/leaves2.png" />
+                </figure>
+                <h2 class="content has-text-centered">
+                  Biała Wstążka <br />
+                  <a href="https://goo.gl/maps/3jxzCzWLe73A2JUL6"
+                    >Widokowa 4, 74-100 Czepino</a
+                  >
+                </h2>
+              </div>
+            </div>
+          </div>
+        </div>
+      </banner>
+    </section>
+
+    <!-- ACCOMODATION -->
+
+    <section class="section pl-4 pr-4" id="accomodation">
+      <div class="container is-centered">
+        <div class="content">
+          <h1 class="title has-text-centered is-1 has-text-weight-normal">
+            Accommodation
+          </h1>
+        </div>
+
+        <div class="column">
+          <h2 class="content has-text-centered bgr-seethrough">
+            Overnight accommodation will be provided for guests arriving from
+            afar (at Biała Wstążka and the Ibis Styles Szczecin Stare Miasto
+            hotel). Please confirm that you would like to stay in one of the
+            rooms using the form below.
+          </h2>
+        </div>
+      </div>
+    </section>
+    <!-- GETTING THERE -->
+
+    <section class="section pl-4 pr-4">
+      <div class="container is-centered">
+        <div class="content">
+          <h1 class="title has-text-centered is-1 has-text-weight-normal">
+            Getting there
+          </h1>
+        </div>
+
+        <div class="column">
+          <h2 class="content has-text-centered bgr-seethrough">
+            PLANE - The closest airport is in Szczecin (SZZ) with limited number
+            of connections. You can consider going to Berlin Airport (BER) which
+            is a 2h car drive from Czepino.
+            <br />
+            <br />
+            TRANSPORT - There will be a transfer bus organized to drive you from
+            Szczecin to the Venue and back. The bus will pick you up from Ibis
+            Styles Szczecin Stare Miasto hotel at 17:00, and will take you back
+            at night.
+          </h2>
+        </div>
+      </div>
+    </section>
+    <!-- GIFTS-->
+
+    <section class="section pl-4 pr-4">
+      <div class="container is-centered">
+        <div class="content">
+          <h1 class="title has-text-centered is-1 has-text-weight-normal">
+            Gifts
+          </h1>
+        </div>
+
+        <div class="column">
+          <h2 class="content has-text-centered bgr-seethrough">
+            Instead of flowers, we would be grateful for a good bottle of wine,
+            rum or a book.
+          </h2>
+        </div>
+      </div>
+    </section>
+
+    <!-- RSVP -->
+    <section class="section pl-4 pr-4" id="rsvp">
+      <div class="container is-centered">
+        <div class="content">
+          <h1 class="title has-text-centered is-1 has-text-weight-normal">
+            R.S.V.P.
+          </h1>
+        </div>
+
+        <div class="column">
+          <div class="content bgr-seethrough">
+            <form
+              action=""
+              id="form"
+              onsubmit="myButton.disabled = true; return true;"
+            >
+              <div class="formSingle">
+                <label for="name">Guest's full name</label>
+                <input
+                  class="input is-info"
+                  type="text"
+                  placeholder="Full name"
+                  name="Name"
+                  required
+                />
+
+                <label for="name">Accompanying guest's full name</label>
+                <input
+                  class="input is-info"
+                  type="text"
+                  placeholder="Full name"
+                  name="Partner"
+                />
+              </div>
+
+              <div class="control">
+                <label for="partner" class="radio">
+                  <input type="checkbox" name="Confirmed" />
+                  I confirm my attendance
+                </label>
+              </div>
+
+              <div class="control">
+                <label for="accomodation" class="radio">
+                  <input type="checkbox" name="Accomodation" />
+                  I need an overnight accommodation
+                </label>
+              </div>
+
+              <label>
+                Food alergies:
+                <textarea
+                  class="textarea"
+                  placeholder="Allergies etc."
+                  name="Allergies"
+                ></textarea>
+              </label>
+
+              <label>
+                Additional comments:
+                <textarea
+                  class="textarea"
+                  placeholder="Other"
+                  name="Other"
+                ></textarea>
+              </label>
+              <br />
+
+              <button
+                name="myButton"
+                id="submit"
+                type="submit"
+                class="button is-info is-fullwidth"
+                disabled
+              >
+                Submit
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+
+  <script src="formsubmit.js"></script>
+</html>
